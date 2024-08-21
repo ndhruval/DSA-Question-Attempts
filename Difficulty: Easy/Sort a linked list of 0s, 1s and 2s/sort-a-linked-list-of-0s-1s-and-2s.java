@@ -33,36 +33,46 @@ class Solution
     // Function to sort a linked list of 0s, 1s and 2s.
     static Node segregate(Node head) 
     {
-        Node Res = head;
-        
-        
-        int cnt[] =  new int[3];
-        
-        Node temp = head;
-        while(temp != null)
+        int cnt[] = new int[3];
+        int l =0;
+        while(head != null)
         {
-            cnt[temp.data]++;
+            if(head.data == 0)
+            cnt[0]++;
+            else if(head.data == 1)
+            cnt[1]++;
+            else
+            cnt[2]++;
+            l++;
+            head = head.next;
+        }
+        Node dummy = new Node(-1);
+        Node temp = dummy;
+        
+        for( int i =1;i<=cnt[0];i++)
+        {
+            Node New = new Node(0);
+            temp.next= New;
             temp = temp.next;
-        }
-        for(int i=0;i< cnt[0];i++)
-        {
-            head.data =0;
-            head = head.next;
             
         }
-        for(int i=0;i< cnt[1];i++)
+        for( int i =1;i<=cnt[1];i++)
         {
-            head.data =1;
-            head = head.next;
+            Node New = new Node(1);
+            temp.next= New;
+            temp = temp.next;
             
         }
-        for(int i=0;i< cnt[2];i++)
+        for( int i =1;i<=cnt[2];i++)
         {
-            head.data =2;
-            head = head.next;
+            Node New = new Node(2);
+            temp.next= New;
+            temp = temp.next;
             
         }
-        return Res;
+        temp.next = null;
+        return dummy.next;
+        // add your code here
     }
 }
 
