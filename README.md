@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0160-intersection-of-two-linked-lists) |
@@ -45,4 +46,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0001-two-sum) |
+## String
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
