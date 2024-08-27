@@ -1,27 +1,18 @@
-class Solution 
-{
-    public String frequencySort(String s) 
-    {
-        HashMap<Character,Integer> map = new HashMap<>();
-        for(int i=0;i<s.length();i++)
-        {
-            char ch = s.charAt(i);
-            map.put(ch, map.getOrDefault(ch, 0) + 1);
-        }
-        
-        List<Character> characters = new ArrayList<>(map.keySet());
-        characters.sort((a, b) -> map.get(b) - map.get(a));
-
-        // Step 3: Build the resulting string
-        String ans = "";
-        for (char ch : characters) {
-            int freq = map.get(ch);
-            while (freq > 0) {
-                ans += ch; // Concatenate the character to the string
-                freq--;
+class Solution {
+    public String frequencySort(String s) {
+        char[] str=s.toCharArray();
+        int[] freq=new int[128];
+        for(int i=0;i<str.length;i++) freq[str[i]]++;
+        for(int i=0;i<str.length;){
+            char cmax='a';
+            for(int j=0;j<128;j++){
+                if(freq[j]>freq[cmax]) cmax=(char)j;
+            }
+            while(freq[cmax]!=0){
+                str[i++]=cmax;
+                freq[cmax]--;
             }
         }
-
-        return ans;
+        return new String(str);
     }
 }
