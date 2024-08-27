@@ -1,17 +1,25 @@
-class Solution 
-{
-    public int maxSubArray(int[] nums) 
-    {
-        int maxEnding = nums[0];
-        int result = nums[0];
+class Solution {
+    public int maxSubArray(int[] nums) {
+        int sum = 0;
+        int max = nums[0];
 
-        for(int i=1;i< nums.length;i++)
-        {
-            maxEnding = Math.max(maxEnding + nums[i], nums[i]);
-            result = Math.max(maxEnding, result);
+        // for(int i = 0; i< nums.length; i++){
+        //     sum = 0;
+        //     //sum += nums[i];
+        //     for(int j=i; j<nums.length; j++){
+        //         sum += nums[j];
+        //         max = Math.max(max, sum);
+        //     }
+        // }
+
+        for(int i=0; i<nums.length; i++){
+            sum += nums[i];
+            max= Math.max(sum, max);
+            if(sum < 0){
+                sum = 0;
+            }
         }
-        return result;
-        
-        
+
+        return max;
     }
 }
