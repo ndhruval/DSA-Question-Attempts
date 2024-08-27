@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0002-add-two-numbers) |
 | [1013-fibonacci-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1013-fibonacci-number) |
+| [2032-largest-odd-number-in-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2032-largest-odd-number-in-string) |
 ## Array
 |  |
 | ------- |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0151-reverse-words-in-a-string) |
 | [1078-remove-outermost-parentheses](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1078-remove-outermost-parentheses) |
+| [2032-largest-odd-number-in-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2032-largest-odd-number-in-string) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -73,4 +75,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0078-subsets) |
+## Greedy
+|  |
+| ------- |
+| [2032-largest-odd-number-in-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2032-largest-odd-number-in-string) |
 <!---LeetCode Topics End-->
