@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [1078-remove-outermost-parentheses](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1078-remove-outermost-parentheses) |
 | [2573-remove-nodes-from-linked-list](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2573-remove-nodes-from-linked-list) |
 ## Recursion
 |  |
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0125-valid-palindrome) |
+| [1078-remove-outermost-parentheses](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1078-remove-outermost-parentheses) |
 ## Dynamic Programming
 |  |
 | ------- |
