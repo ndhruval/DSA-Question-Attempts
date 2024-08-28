@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0144-binary-tree-preorder-traversal) |
 | [1078-remove-outermost-parentheses](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1078-remove-outermost-parentheses) |
 | [2573-remove-nodes-from-linked-list](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2573-remove-nodes-from-linked-list) |
@@ -141,16 +142,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0094-binary-tree-inorder-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0144-binary-tree-preorder-traversal) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0094-binary-tree-inorder-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0144-binary-tree-preorder-traversal) |
 ## Binary Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0094-binary-tree-inorder-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0144-binary-tree-preorder-traversal) |
 ## Breadth-First Search
