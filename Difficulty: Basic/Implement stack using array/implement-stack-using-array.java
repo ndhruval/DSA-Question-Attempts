@@ -42,15 +42,14 @@ class MyStack {
     private int[] arr;
     private int top;
 
-    public MyStack() 
-    {
+    public MyStack() {
         arr = new int[1000];
         top = -1;
     }
 
     public void push(int x) 
     {
-        top++;
+        top ++;
         arr[top]=x;
         // Your Code
     }
@@ -59,9 +58,9 @@ class MyStack {
     {
         if(top == -1)
         return -1;
-        int x = arr[top];
+        int e = arr[top];
         top--;
-        return x;
+        return e;
         // Your Code
     }
 }
