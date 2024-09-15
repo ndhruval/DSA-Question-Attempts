@@ -34,8 +34,8 @@ class Solution
         return 0;
 
         int maxMins =0;
-        int rowd[] = {-1,0,+1,0};
-        int cold[] = {0,-1,0,+1};
+        int rowd[] = {-1,0,0,1};
+        int cold[] = {0,-1,1,0};
 
         while(!q.isEmpty())
         {
