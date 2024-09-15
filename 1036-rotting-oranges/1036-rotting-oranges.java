@@ -1,72 +1,61 @@
-class Pair
-{
-    int row;
-    int col;
-    int time;
-    Pair(int _row, int _col, int _time)
+import java.util.*;
+class element{
+    int row,col,min;
+    public element( int r, int c, int m)
     {
-        this.row = _row;
-        this.col = _col;
-        this.time = _time;
+        this.row = r;
+        this.col = c;
+        this.min = m;
     }
 }
-class Solution
+
+class Solution 
 {
-    //Function to find minimum time required to rot all oranges. 
-    public int orangesRotting(int[][] grid)
+    public int orangesRotting(int[][] grid) 
     {
-        int n = grid.length;
-        int m = grid[0].length;
-        
-        Queue <Pair> q = new LinkedList<>();
-        
-        int vis[][] = new int[n][m];
-        int cntFresh =0;
-        for(int i=0;i<n;i++)
+        int r = grid.length;
+        int c = grid[0].length;
+        int fresh =0;
+        Queue<element> q = new ArrayDeque<>();
+        for(int i =0;i<r;i++)
         {
-            for(int j =0;j<m;j++)
+            for(int j=0;j<c;j++)
             {
-                if(grid[i][j]==2)
-                {
-                q.add(new Pair(i,j,0));
-                vis[i][j]=2;
-                
-                }
-                else
-                vis[i][j]=0;
-                
                 if(grid[i][j]==1)
-                cntFresh++;
+                fresh++;
+                else if(grid[i][j]==2)
+                {
+                    q.offer(new element(i,j,0));
+                    grid[i][j]=0;
+                }
             }
         }
-        
-        int tm =0;
-        int drow[] ={-1,0,+1,0};
-        int dcol[] ={0,1,0,-1};
-        int cnt = 0;
+        if(q.isEmpty() && fresh == 0)
+        return 0;
+
+        int maxMins =0;
+        int rowd[] = {-1,0,+1,0};
+        int cold[] = {0,-1,0,+1};
+
         while(!q.isEmpty())
         {
-            int r = q.peek().row;
-            int c = q.peek().col;
-            int t = q.peek().time;
-            tm = Math.max(tm, t);
-            q.remove();
-            for(int i =0;i<4;i++)
+            element curr = q.poll();
+            maxMins = Math.max(maxMins, curr.min);
+            for(int i=0;i<4;i++)
             {
-                int nrow = r+drow[i];
-                int ncol = c+dcol[i];
-                if(nrow>=0 && nrow< n && ncol>=0 && ncol <m && vis[nrow][ncol]==0 && grid[nrow][ncol]==1)
+                int adjr = curr.row + rowd[i];
+                int adjc = curr.col + cold[i];
+                if(adjr >=0 && adjr< r && adjc>=0 && adjc<c && grid[adjr][adjc]==1)
                 {
-                    q.add(new Pair(nrow,ncol, t+1));
-                    vis[nrow][ncol]=2;
-                    cnt++;
+                    q.add(new element(adjr, adjc, curr.min +1));
+                    fresh --;
+                    grid[adjr][adjc] =0;
                 }
             }
         }
-        if(cnt!= cntFresh)
+        if(fresh > 0)
         return -1;
-        return tm;
+        return maxMins;
         
-        // Code here
     }
 }
