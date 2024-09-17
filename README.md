@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0053-maximum-subarray](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0053-maximum-subarray) |
 | [0078-subsets](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0078-subsets) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0268-missing-number) |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0053-maximum-subarray) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0542-01-matrix](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0542-01-matrix) |
 | [1013-fibonacci-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1013-fibonacci-number) |
