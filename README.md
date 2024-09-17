@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0001-two-sum) |
+| [0073-set-matrix-zeroes](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0128-longest-consecutive-sequence) |
 | [0141-linked-list-cycle](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0142-linked-list-cycle-ii) |
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0031-next-permutation) |
 | [0053-maximum-subarray](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0053-maximum-subarray) |
+| [0073-set-matrix-zeroes](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0073-set-matrix-zeroes) |
 | [0078-subsets](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0078-subsets) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0128-longest-consecutive-sequence) |
@@ -271,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0073-set-matrix-zeroes) |
 | [0542-01-matrix](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1036-rotting-oranges) |
