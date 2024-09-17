@@ -2,27 +2,22 @@ class Solution
 {
     public int[] rearrangeArray(int[] nums) 
     {
-        int len = nums.length;
-        int n=len/2;
-        int pos[] = new int[n];
-        int neg[] = new int[n];
-        int i =0, j =0;
-
-        for(int k =0;k<len;k++)
+        int result[] = new int[nums.length];
+        int pos =0, neg =1;
+        for(int i =0;i< nums.length;i++)
         {
-            if(nums[k]>= 0)
-            pos[i++] = nums[k];
+            if(nums[i]>=0)
+            {
+                result[pos]= nums[i];
+                pos += 2;
+            }
             else
-            neg[j++] = nums[k];
+            {
+                result[neg]= nums[i];
+                neg += 2;
+            }
         }
-        i=0;j=0;
-        for(int k =0;k<len;k += 2)
-        {
-            nums[k] = pos[i++];
-            nums[k+1] = neg[j++];
-
-        }
-        return nums;
+        return result;
         
     }
 }
