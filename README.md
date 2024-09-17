@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0001-two-sum) |
+| [0128-longest-consecutive-sequence](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0128-longest-consecutive-sequence) |
 | [0141-linked-list-cycle](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0160-intersection-of-two-linked-lists) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0053-maximum-subarray) |
 | [0078-subsets](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0078-subsets) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0128-longest-consecutive-sequence](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0268-missing-number) |
@@ -260,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0128-longest-consecutive-sequence) |
 | [0547-number-of-provinces](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0547-number-of-provinces) |
 ## Graph
 |  |
