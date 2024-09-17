@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0208-implement-trie-prefix-tree) |
+| [0229-majority-element-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0268-missing-number) |
 | [0451-sort-characters-by-frequency](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0451-sort-characters-by-frequency) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0268-missing-number) |
 | [0542-01-matrix](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0733-flood-fill) |
@@ -144,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0268-missing-number) |
 | [0451-sort-characters-by-frequency](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0451-sort-characters-by-frequency) |
@@ -160,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0229-majority-element-ii) |
 | [0451-sort-characters-by-frequency](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0451-sort-characters-by-frequency) |
 ## Binary Search
 |  |
