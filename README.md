@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0020-valid-parentheses) |
 | [0094-binary-tree-inorder-traversal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0144-binary-tree-preorder-traversal) |
 | [0225-implement-stack-using-queues](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0225-implement-stack-using-queues) |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0014-longest-common-prefix) |
+| [0020-valid-parentheses](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0020-valid-parentheses) |
 | [0125-valid-palindrome](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0205-isomorphic-strings) |
