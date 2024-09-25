@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0232-implement-queue-using-stacks) |
+| [0503-next-greater-element-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0503-next-greater-element-ii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1078-remove-outermost-parentheses](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1078-remove-outermost-parentheses) |
 | [2573-remove-nodes-from-linked-list](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2573-remove-nodes-from-linked-list) |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0503-next-greater-element-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0503-next-greater-element-ii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [2573-remove-nodes-from-linked-list](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2573-remove-nodes-from-linked-list) |
 ## Math
@@ -93,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0268-missing-number) |
+| [0503-next-greater-element-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0503-next-greater-element-ii) |
 | [0542-01-matrix](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0733-flood-fill) |
 | [0792-binary-search](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0792-binary-search) |
