@@ -1,18 +1,22 @@
-class Solution {
-    public int[] nextGreaterElements(int[] nums) {
-        int[] ans = new int[nums.length];
-        for(int i = 0; i < nums.length; i++) {
-            int j = (i + 1) % nums.length;
-            int max = -1;
-            while((j % nums.length) != i && j != nums.length) {
-                if (nums[j] > nums[i]) {
-                    max = nums[j];
-                    break;
-                }
-                j = (j + 1) % nums.length;
+class Solution 
+{
+    public int[] nextGreaterElements(int[] nums) 
+    {
+        int nge[] = new int[nums.length];
+        Arrays.fill(nge, -1);
+
+        for(int i =0;i< nums.length;i++)
+        {
+            for(int j = i+1;j<2*nums.length -1;j++ )
+            {
+                int ind = j% nums.length;
+                if(nums[ind]> nums[i])
+                {
+                nge[i] = nums[ind];
+                break;}
             }
-            ans[i] = max;
         }
-        return ans;
+        return nge;
+        
     }
 }
