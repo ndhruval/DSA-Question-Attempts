@@ -28,19 +28,25 @@ class Solution
 {
     public long multiplyTwoLists(Node first, Node second) 
     {
-        long x = 1000000007;
-        long num1=0, num2=0;
+        long mod = 1000000007;
+        long n1=0;
         while(first != null)
         {
-            num1 = (10*num1)%x + first.data;
+            int c = first.data;
+            n1 = (n1*10 + c)%mod;
             first = first.next;
+            
         }
+        long n2=0;
         while(second != null)
         {
-            num2 = (10*num2)%x + second.data;
+            int c = second.data;
+            n2 = (n2*10 + c)%mod;
             second = second.next;
+            
         }
-        return ((num1%x)*(num2%x))%x;
+        long x = (long)(n1*n2)%mod;
+        return x;
         // Code here
     }
 }
