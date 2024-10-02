@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0496-next-greater-element-i) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1256-rank-transform-of-an-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1256-rank-transform-of-an-array) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 ## Linked List
 |  |
@@ -110,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0792-binary-search) |
 | [1036-rotting-oranges](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1036-rotting-oranges) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1256-rank-transform-of-an-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1256-rank-transform-of-an-array) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -175,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0268-missing-number) |
 | [0451-sort-characters-by-frequency](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0451-sort-characters-by-frequency) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1256-rank-transform-of-an-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1256-rank-transform-of-an-array) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
