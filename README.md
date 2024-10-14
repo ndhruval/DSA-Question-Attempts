@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0042-trapping-rain-water) |
 | [0048-rotate-image](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0073-set-matrix-zeroes) |
 | [0078-subsets](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0078-subsets) |
 | [0118-pascals-triangle](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0118-pascals-triangle) |
@@ -339,6 +340,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0073-set-matrix-zeroes) |
 | [0542-01-matrix](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0733-flood-fill) |
@@ -346,6 +348,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0054-spiral-matrix) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Prefix Sum
 |  |
