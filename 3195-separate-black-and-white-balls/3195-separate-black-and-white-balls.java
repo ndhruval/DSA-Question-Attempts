@@ -11,7 +11,7 @@ class Solution
             count1++;
             if(ch[i] == '1')
             {
-                count2 += count1;
+                count2 += (long)count1;
                
             }
             
