@@ -1,0 +1,15 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1">Job Sequencing Problem</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Given an array, <strong>jobs[]</strong>&nbsp;where each <strong>job[i]</strong> has a <strong>job<sub>id</sub></strong>, <strong>deadline</strong> and <strong>profit</strong> associated with it. Each job takes <strong>1</strong> unit of time to complete and only one job can be scheduled at a time. We earn the profit associated with a job if and only if the job is completed by its deadline. </span></p>
+<p><span style="font-size: 14pt;">Find the number of jobs done and the&nbsp;<strong>maximum profit</strong>.</span></p>
+<p><span style="font-size: 14pt;"><strong>Note: </strong>jobs will be given in the form (job<sub>id</sub>, deadline, profit) associated with that job. Deadline of the job is the time on or before which job needs to be completed to earn the profit.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>jobs[] = [(1,4,20), (2,1,1), (3,1,40), (4,1,30)]
+<strong>Output: </strong>[2, 60]<strong>
+Explanation: j</strong>ob<sub>1</sub> and job<sub>3 </sub>can be done with maximum profit of 60 (20+40).
+</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>jobs[] = [(1,2,100), (2,1,19), (3,2,27), (4,1,25), (5,1,15)]
+<strong>Output: </strong>[2, 127]<strong>
+Explanation: </strong>2 jobs can be done with maximum profit of 127 (100+27).</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>jobs[] = [(1,3,50), (2,1,10), (3,2,20), (4,2,30)]
+<strong>Output: </strong>[2, 80]<strong>
+Explanation: </strong>Job 1 and Job 4 can be completed with a maximum profit of 80 (50 + 30).</span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 &lt;=&nbsp; jobs.size &lt;= 10<sup>5</sup><br>1 &lt;= deadline,&nbsp;<span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">job</span><sub style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">id</sub><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">&nbsp;&lt;= jobs.size<br></span>1 &lt;= profit &lt;= 500</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Flipkart</code>&nbsp;<code>Accolite</code>&nbsp;<code>Microsoft</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Dynamic Programming</code>&nbsp;<code>Greedy</code>&nbsp;<code>Algorithms</code>&nbsp;
