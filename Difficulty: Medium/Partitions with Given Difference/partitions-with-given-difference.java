@@ -31,28 +31,39 @@ class GFG {
 
 class Solution {
     int countPartitions(int[] arr, int d) {
+        int total_sum = 0;
         int n = arr.length;
-        int sum = 0;
+        
+        // Calculate the total sum of the array
         for (int num : arr) {
-            sum += num;
+            total_sum += num;
         }
         
         // Check for invalid cases
-        if ((sum - d) < 0 || (sum - d) % 2 != 0) {
+        if ((d + total_sum) % 2 != 0 || d > total_sum) {
             return 0;
         }
         
-        int target = (sum - d) / 2;
-        int[] dp = new int[target + 1];
-        dp[0] = 1; // Base case: one subset (empty subset) with sum 0
+        // Calculate the target sum
+        int sum = (d + total_sum) / 2;
         
-        // Fill dp array
-        for (int num : arr) {
-            for (int j = target; j >= num; j--) {
-                dp[j] += dp[j - num];
+        // Initialize the dp array
+        int[][] dp = new int[n + 1][sum + 1];
+        for (int i = 0; i <= n; i++) {
+            dp[i][0] = 1; // Base case: one subset (empty subset) with sum 0
+        }
+        
+        // Fill the dp array
+        for (int i = 1; i <= n; i++) {
+            for (int j = 0; j <= sum; j++) {
+                if (arr[i - 1] <= j) {
+                    dp[i][j] = dp[i - 1][j - arr[i - 1]] + dp[i - 1][j];
+                } else {
+                    dp[i][j] = dp[i - 1][j];
+                }
             }
         }
         
-        return dp[target];
+        return dp[n][sum];
     }
 }
