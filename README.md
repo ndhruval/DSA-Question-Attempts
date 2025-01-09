@@ -154,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2554-minimum-total-distance-traveled](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2554-minimum-total-distance-traveled) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## String
@@ -175,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1524-string-matching-in-an-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1524-string-matching-in-an-array) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2032-largest-odd-number-in-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2032-largest-odd-number-in-string) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2580-circular-sentence](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2580-circular-sentence) |
 | [3195-separate-black-and-white-balls](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3195-separate-black-and-white-balls) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3309-count-prefix-and-suffix-pairs-i) |
@@ -233,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0812-rotate-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0812-rotate-string) |
 | [1524-string-matching-in-an-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1524-string-matching-in-an-array) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2292-counting-words-with-a-given-prefix) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Sorting
 |  |
