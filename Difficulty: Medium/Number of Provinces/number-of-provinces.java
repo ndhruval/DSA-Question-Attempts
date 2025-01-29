@@ -23,7 +23,9 @@ class GFG {
 
             Solution ob = new Solution();
             System.out.println(ob.numProvinces(adj,V));
-        }
+        
+System.out.println("~");
+}
     }
 }
 // } Driver Code Ends
@@ -31,35 +33,40 @@ class GFG {
 
 //User function Template for Java
 
-class Solution 
-{
-    static int numProvinces(ArrayList<ArrayList<Integer>> adj, int V)
-    {
+class Solution {
+    static int numProvinces(ArrayList<ArrayList<Integer>> adj, int V) {
+        
+        boolean visited[] = new boolean[V];
         int count =0;
-        boolean vis[] = new boolean[V];
-        for(int i =0; i<V;i++)
+        for(int i=0;i<V;i++)
         {
-            vis[i] = false;
-        }
-        for(int i =0;i< V;i++)
-        {
-            if(!vis[i])
+            if(!visited[i])
             {
+                bfs(adj,visited,i,V);
                 count++;
-            dfs(adj,V, i, vis);
             }
+            
         }
         return count;
         // code here
     }
-    public static void dfs(ArrayList<ArrayList<Integer>> adj, int V, int curr, boolean[] vis)
+    public static void bfs(ArrayList<ArrayList<Integer>> adj, boolean[] visited, int start, int V)
     {
-        vis[curr] = true;
-        
-        for(int i =0; i< V;i++)
+        Queue<Integer> q = new LinkedList<>();
+        visited[start] = true;
+        q.offer(start);
+        while(!q.isEmpty())
         {
-            if(adj.get(curr).get(i) == 1 && vis[i] == false)
-            dfs(adj, V , i, vis);
+            Integer node = q.poll();
+            for(int i = 0; i < V; i++)
+            {
+                if(adj.get(node).get(i) == 1 && !visited[i])
+                {
+                    visited[i] = true;
+                    q.offer(i);
+                }
+            }
         }
+        return;
     }
 };
