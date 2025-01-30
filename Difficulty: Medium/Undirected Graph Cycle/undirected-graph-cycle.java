@@ -1,11 +1,11 @@
 //{ Driver Code Starts
-import java.util.*;
-import java.lang.*;
 import java.io.*;
+import java.lang.*;
+import java.util.*;
+
 class GFG {
     public static void main(String[] args) throws IOException {
-        BufferedReader br =
-            new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int T = Integer.parseInt(br.readLine().trim());
         while (T-- > 0) {
             String[] s = br.readLine().trim().split(" ");
@@ -21,67 +21,73 @@ class GFG {
                 adj.get(v).add(u);
             }
             Solution obj = new Solution();
-            boolean ans = obj.isCycle(V, adj);
+            boolean ans = obj.isCycle(adj);
             if (ans)
                 System.out.println("1");
             else
                 System.out.println("0");
+
+            System.out.println("~");
         }
     }
 }
 // } Driver Code Ends
 
-
-
-class Node {
-    int child;
+class Pair{
+    int node;
     int parent;
-    public Node(int first, int second) {
-        this.child = first;
-        this.parent = second; 
+    
+    Pair(int n, int p)
+    {
+        this.node = n;
+        this.parent = p;
     }
 }
-class Solution 
-{
+
+class Solution {
     // Function to detect cycle in an undirected graph.
-    public boolean isCycle(int V, ArrayList<ArrayList<Integer>> adj) 
-    {
-        boolean vis[] = new boolean[V];
-        Arrays.fill(vis, false);
+    public boolean isCycle(ArrayList<ArrayList<Integer>> adj) {
+        
+        int V = adj.size();
+        boolean[] visited = new boolean[V];
         for(int i=0;i<V;i++)
         {
-            if(vis[i]== false)
+            if(visited[i]== false)
             {
-                if(detection(adj,vis,i) == true)
+                if(check(adj,visited,V,i))
                 return true;
             }
         }
-        return false;// Code here
+        return false;
+        
+        // Code here
     }
-    public boolean detection(ArrayList<ArrayList<Integer>> adj, boolean vis[], int node)
+    
+    public boolean check(ArrayList<ArrayList<Integer>> adj, boolean[] visited, int V, int i)
     {
-        Queue<Node> q = new ArrayDeque<>();
-        q.offer(new Node(node,-1));
-        vis[node]= true;
+        
+        visited[i]= true;
+        Queue<Pair> q = new LinkedList<>();
+        q.offer(new Pair(i,-1));
+        
         while(!q.isEmpty())
         {
-            int n = q.peek().child;
-            int par = q.peek().parent;
+            int node = q.peek().node;
+            int parent = q.peek().parent;
+            q.remove();
             
-            q.poll();
-            for(int neighbor : adj.get(n)) 
+            for(int sd : adj.get(node))
             {
-                if(!vis[neighbor]) // If the adjacent node is not visited
+                if(visited[sd]== false)
                 {
-                    q.offer(new Node(neighbor, n)); // Add it to the queue
-                    vis[neighbor] = true;
-                } 
-                else if(par != neighbor) // If visited and not the parent, cycle found
-                {
-                    return true;
+                    visited[sd] = true;
+                    q.add(new Pair(sd, node));
                 }
+                else if(parent != sd)
+                return true;
             }
         }
         return false;
+        
     }
 }
