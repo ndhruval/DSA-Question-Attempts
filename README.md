@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1078-remove-outermost-parentheses](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1078-remove-outermost-parentheses) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2573-remove-nodes-from-linked-list](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2573-remove-nodes-from-linked-list) |
+| [3447-clear-digits](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3447-clear-digits) |
 ## Recursion
 |  |
 | ------- |
@@ -201,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2580-circular-sentence](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2580-circular-sentence) |
 | [3195-separate-black-and-white-balls](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3195-separate-black-and-white-balls) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+| [3447-clear-digits](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3447-clear-digits) |
 | [3451-string-compression-iii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3451-string-compression-iii) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Dynamic Programming
@@ -450,6 +452,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0054-spiral-matrix) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2271-rearrange-array-elements-by-sign) |
+| [3447-clear-digits](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3447-clear-digits) |
 ## Prefix Sum
 |  |
 | ------- |
