@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1694-make-sum-divisible-by-p](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1694-make-sum-divisible-by-p) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [2434-design-a-number-container-system](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2434-design-a-number-container-system) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3455-minimum-length-of-string-after-operations) |
@@ -300,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0451-sort-characters-by-frequency) |
 | [0658-find-k-closest-elements](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0658-find-k-closest-elements) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [2434-design-a-number-container-system](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2434-design-a-number-container-system) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -411,6 +413,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0232-implement-queue-using-stacks) |
 | [0937-online-stock-span](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0937-online-stock-span) |
+| [2434-design-a-number-container-system](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2434-design-a-number-container-system) |
 ## Queue
 |  |
 | ------- |
@@ -486,6 +489,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [2434-design-a-number-container-system](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2434-design-a-number-container-system) |
 ## Rolling Hash
 |  |
 | ------- |
