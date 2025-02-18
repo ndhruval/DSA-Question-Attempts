@@ -171,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1694-make-sum-divisible-by-p](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1694-make-sum-divisible-by-p) |
+| [1753-path-with-minimum-effort](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1753-path-with-minimum-effort) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1927-maximum-ascending-subarray-sum) |
@@ -306,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0451-sort-characters-by-frequency) |
 | [0658-find-k-closest-elements](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0658-find-k-closest-elements) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1753-path-with-minimum-effort](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1753-path-with-minimum-effort) |
 | [2434-design-a-number-container-system](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2434-design-a-number-container-system) |
 ## Bucket Sort
 |  |
@@ -327,6 +329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0268-missing-number) |
 | [0658-find-k-closest-elements](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0658-find-k-closest-elements) |
 | [0792-binary-search](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0792-binary-search) |
+| [1753-path-with-minimum-effort](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1753-path-with-minimum-effort) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -372,6 +375,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0733-flood-fill) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1753-path-with-minimum-effort](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1753-path-with-minimum-effort) |
 ## Binary Tree
 |  |
 | ------- |
@@ -410,6 +414,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1753-path-with-minimum-effort](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1753-path-with-minimum-effort) |
 ## Design
 |  |
 | ------- |
@@ -442,6 +447,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0128-longest-consecutive-sequence) |
 | [0547-number-of-provinces](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0547-number-of-provinces) |
+| [1753-path-with-minimum-effort](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1753-path-with-minimum-effort) |
 ## Graph
 |  |
 | ------- |
@@ -459,6 +465,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1753-path-with-minimum-effort](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1753-path-with-minimum-effort) |
 ## Simulation
 |  |
 | ------- |
