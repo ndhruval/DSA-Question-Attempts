@@ -1,27 +1,27 @@
+import java.util.ArrayList;
+import java.util.List;
+
 class Solution {
     public String getHappyString(int n, int k) {
-        String current="";
-        ArrayList<String> happy = new ArrayList<>();
-        generate(n,current,happy);
-        if(happy.size()<k)
-        return "";
-        Collections.sort(happy);
-        return happy.get(k-1);
+        List<String> happyList = new ArrayList<>();
+        generate(n, "", happyList, k);
         
+        return happyList.size() >= k ? happyList.get(k - 1) : "";
     }
-    public static void generate(int n,String current, ArrayList<String> happy)
-    {
-        if(current.length()==n)
-        {
-            happy.add(current);
+
+    private void generate(int n, String current, List<String> happyList, int k) {
+        if (current.length() == n) {
+            happyList.add(current);
             return;
         }
-        for(char c= 'a';c<='c';c++)
-        {
-            if(current.length()>0 && current.charAt(current.length()-1)==c )
-            continue;
-            generate(n,current+c,happy);
-        }
 
+        for (char c = 'a'; c <= 'c'; c++) {
+            if (current.length() > 0 && current.charAt(current.length() - 1) == c) {
+                continue;
+            }
+            if (happyList.size() < k) {
+                generate(n, current + c, happyList, k);
+            }
+        }
     }
 }
