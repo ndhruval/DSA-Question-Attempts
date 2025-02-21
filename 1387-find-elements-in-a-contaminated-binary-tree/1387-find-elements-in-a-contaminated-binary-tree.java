@@ -18,7 +18,7 @@ class FindElements {
 
     public FindElements(TreeNode root) {
         set = new HashSet<>();
-        dfs(root,0);
+        bfs(root);
         
     }
     
@@ -26,14 +26,28 @@ class FindElements {
         return set.contains(target);
         
     }
-    private void dfs(TreeNode current, int currentValue)
+    private void bfs(TreeNode current)
     {
-        if(current == null)
-        return;
+        Queue<TreeNode> q = new LinkedList<>();
+        current.val=0;
+        q.add(current);
 
-        set.add(currentValue);
-        dfs(current.left, currentValue * 2+1);
-        dfs(current.right, currentValue* 2+2);
+        while(!q.isEmpty())
+        {
+            TreeNode currentNode = q.poll();
+            set.add(currentNode.val);
+            if(currentNode.left !=null)
+            {
+                currentNode.left.val = currentNode.val*2+1;
+                q.add(currentNode.left);
+            }
+            if(currentNode.right != null)
+            {
+                currentNode.right.val = currentNode.val*2+2;
+                q.add(currentNode.right);
+            }
+        }
+        
 
     }
 }
