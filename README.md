@@ -202,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0812-rotate-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0812-rotate-string) |
 | [0952-word-subsets](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0952-word-subsets) |
 | [1078-remove-outermost-parentheses](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1078-remove-outermost-parentheses) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1250-longest-common-subsequence](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1250-longest-common-subsequence) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1502-construct-k-palindrome-strings](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1502-construct-k-palindrome-strings) |
@@ -373,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0784-insert-into-a-binary-search-tree](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0784-insert-into-a-binary-search-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 ## Depth-First Search
 |  |
@@ -394,6 +396,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1753-path-with-minimum-effort) |
 ## Binary Tree
@@ -418,6 +421,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0784-insert-into-a-binary-search-tree](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0784-insert-into-a-binary-search-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 ## Breadth-First Search
 |  |
