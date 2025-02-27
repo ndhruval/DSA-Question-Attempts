@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0268-missing-number) |
 | [1013-fibonacci-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1013-fibonacci-number) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2032-largest-odd-number-in-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2050-count-good-numbers) |
 ## Array
@@ -176,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1524-string-matching-in-an-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1524-string-matching-in-an-array) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1694-make-sum-divisible-by-p](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1694-make-sum-divisible-by-p) |
 | [1753-path-with-minimum-effort](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1753-path-with-minimum-effort) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
@@ -251,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1013-fibonacci-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1013-fibonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1250-longest-common-subsequence) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2554-minimum-total-distance-traveled](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2554-minimum-total-distance-traveled) |
@@ -514,6 +517,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0560-subarray-sum-equals-k) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1694-make-sum-divisible-by-p](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1694-make-sum-divisible-by-p) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 ## Sliding Window
