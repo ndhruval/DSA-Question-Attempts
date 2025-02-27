@@ -1,28 +1,32 @@
 class Solution {
     public int lenLongestFibSubseq(int[] arr) {
         int n= arr.length;
-        int maxLen =0;
-        int[][] dp = new int[n][n];
-        HashMap<Integer,Integer> map = new HashMap<>();
-        for(int curr =0;curr<n;curr++)
+        int dp[][] = new int[n][n];
+        int maxLen=0;
+        for(int curr=2;curr<n;curr++)
         {
-            map.put(arr[curr],curr);
-            for(int prev=0;prev<curr;prev++)
+            int start =0;
+            int end = curr-1;
+
+            while(start<end)
             {
-                int diff= arr[curr]-arr[prev];
-                int prevIdx = map.getOrDefault(diff,-1);
-
-                if(diff<arr[prev] && prevIdx>=0)
-                dp[prev][curr]= dp[prevIdx][prev]+1;
+                int pair = arr[start]+arr[end];
+                if(pair<arr[curr])
+                start++;
+                else if(pair>arr[curr])
+                end--;
                 else
-                dp[prev][curr]=2;
+                {
+                    dp[end][curr]= dp[start][end]+1;
+                    maxLen = Math.max(maxLen,dp[end][curr]);
+                    end--;
+                    start++;
 
-                maxLen = Math.max(maxLen,dp[prev][curr]);
+                }
             }
         }
 
-        return maxLen>2? maxLen:0;
-
+        return maxLen==0?0:maxLen+2;
         
     }
 }
