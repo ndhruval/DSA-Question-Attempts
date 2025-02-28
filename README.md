@@ -204,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0451-sort-characters-by-frequency) |
+| [0516-longest-palindromic-subsequence](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0516-longest-palindromic-subsequence) |
 | [0812-rotate-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0812-rotate-string) |
 | [0952-word-subsets](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0952-word-subsets) |
 | [1078-remove-outermost-parentheses](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1078-remove-outermost-parentheses) |
@@ -248,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0494-target-sum) |
+| [0516-longest-palindromic-subsequence](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0542-01-matrix) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0803-cheapest-flights-within-k-stops) |
