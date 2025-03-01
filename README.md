@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0908-middle-of-the-linked-list](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2551-apply-operations-to-an-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2551-apply-operations-to-an-array) |
 | [3195-separate-black-and-white-balls](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3195-separate-black-and-white-balls) |
 ## Stack
 |  |
@@ -187,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2107-find-unique-binary-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2107-find-unique-binary-string) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2292-counting-words-with-a-given-prefix) |
+| [2551-apply-operations-to-an-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2551-apply-operations-to-an-array) |
 | [2554-minimum-total-distance-traveled](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2554-minimum-total-distance-traveled) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3309-count-prefix-and-suffix-pairs-i) |
@@ -515,6 +517,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0054-spiral-matrix) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2551-apply-operations-to-an-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2551-apply-operations-to-an-array) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3447-clear-digits) |
 ## Prefix Sum
