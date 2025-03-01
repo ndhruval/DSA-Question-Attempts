@@ -10,15 +10,15 @@ class Solution {
             }
         }
 
-        int nonZeroIndex = 0;
-        for (int iterateIndex = 0; iterateIndex < n; iterateIndex++) {
-            if (nums[iterateIndex] != 0) {
-                nums[nonZeroIndex++] = nums[iterateIndex];
+        int nonZero = 0;
+        for (int i = 0; i < n; i++) {
+            if (nums[i] != 0) {
+                nums[nonZero++] = nums[i];
             }
         }
 
-        while (nonZeroIndex < n) {
-            nums[nonZeroIndex++] = 0;
+        while (nonZero < n) {
+            nums[nonZero++] = 0;
         }
 
         return nums;
