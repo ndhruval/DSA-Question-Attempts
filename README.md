@@ -289,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0268-missing-number) |
 | [2509-minimize-xor](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2509-minimize-xor) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+| [3508-number-of-bit-changes-to-make-two-integers-equal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3508-number-of-bit-changes-to-make-two-integers-equal) |
 ## Greedy
 |  |
 | ------- |
