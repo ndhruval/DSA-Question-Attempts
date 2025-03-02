@@ -11,9 +11,7 @@ class Solution {
         }
         if(vow ==0)
         return false;
-        if(vow%2 !=0)
-        return true;
-        else
+        else 
         return true;
         
     }
