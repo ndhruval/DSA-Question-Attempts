@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2456-construct-smallest-number-from-di-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2573-remove-nodes-from-linked-list](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2573-remove-nodes-from-linked-list) |
 | [3447-clear-digits](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3447-clear-digits) |
+| [3454-minimum-operations-to-make-array-equal-to-target](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3454-minimum-operations-to-make-array-equal-to-target) |
 ## Recursion
 |  |
 | ------- |
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0937-online-stock-span](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0937-online-stock-span) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [2573-remove-nodes-from-linked-list](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2573-remove-nodes-from-linked-list) |
+| [3454-minimum-operations-to-make-array-equal-to-target](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3454-minimum-operations-to-make-array-equal-to-target) |
 ## Math
 |  |
 | ------- |
@@ -197,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3454-minimum-operations-to-make-array-equal-to-target](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3454-minimum-operations-to-make-array-equal-to-target) |
 ## String
 |  |
 | ------- |
@@ -269,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2554-minimum-total-distance-traveled](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2554-minimum-total-distance-traveled) |
+| [3454-minimum-operations-to-make-array-equal-to-target](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3454-minimum-operations-to-make-array-equal-to-target) |
 ## Memoization
 |  |
 | ------- |
@@ -306,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2456-construct-smallest-number-from-di-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2509-minimize-xor](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2509-minimize-xor) |
 | [3195-separate-black-and-white-balls](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3195-separate-black-and-white-balls) |
+| [3454-minimum-operations-to-make-array-equal-to-target](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3454-minimum-operations-to-make-array-equal-to-target) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 ## Trie
 |  |
