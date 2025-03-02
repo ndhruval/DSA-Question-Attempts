@@ -1,41 +1,26 @@
 class Solution {
+
     public int[][] mergeArrays(int[][] nums1, int[][] nums2) {
-        HashSet<Integer> set = new HashSet<>();
-        for(int i=0;i<nums1.length;i++)
-        {
-            set.add(nums1[i][0]);
-        }
-        for(int i=0;i<nums2.length;i++)
-        {
-            set.add(nums2[i][0]);
-        }
-        HashMap<Integer,Integer> map1 = new HashMap<>();
-        HashMap<Integer,Integer> map2 = new HashMap<>();
-        for(int i=0;i<nums1.length;i++)
-        {
-            map1.put(nums1[i][0],nums1[i][1]);
-        }
-        for(int i=0;i<nums2.length;i++)
-        {
-            map2.put(nums2[i][0],nums2[i][1]);
+        Map<Integer, Integer> keyToSum = new TreeMap<>();
+
+        for (int[] nums : nums1) {
+            keyToSum.put(nums[0], nums[1]);
         }
 
-
-        int res[][] = new int[set.size()][2];
-        ArrayList<Integer> arr = new ArrayList<>(set);
-        Collections.sort(arr);
-        int k =0;
-
-        for(int i: arr)
-        {
-            res[k][0] = i;
-            res[k][1] = map1.getOrDefault(i,0) + map2.getOrDefault(i,0);
-            k++;
+        for (int[] nums : nums2) {
+            keyToSum.put(nums[0], keyToSum.getOrDefault(nums[0], 0) + nums[1]);
         }
-        return res;
 
+        List<int[]> mergedList = new ArrayList<>();
+        for (Map.Entry<Integer, Integer> entry : keyToSum.entrySet()) {
+            mergedList.add(new int[] { entry.getKey(), entry.getValue() });
+        }
 
-        
+        int[][] mergedArray = new int[mergedList.size()][2];
+        for (int i = 0; i < mergedList.size(); i++) {
+            mergedArray[i] = mergedList.get(i);
+        }
+
+        return mergedArray;
     }
 }
-
