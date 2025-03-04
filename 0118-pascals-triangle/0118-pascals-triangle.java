@@ -4,12 +4,16 @@ class Solution {
         
         for (int i = 0; i < numRows; i++) {
             List<Integer> temp = new ArrayList<>();
-            int ans = 1;
+            
             temp.add(1);
-            for (int j = 1; j <= i; j++) {
-                ans = ans * (i - j + 1) / j;  // Using combinatorial formula
+            for (int j = 1; j < i; j++) 
+            {
+                int ans = res.get(i-1).get(j-1) + res.get(i-1).get(j); 
                 temp.add(ans);
             }
+
+            if(i>0)
+            temp.add(1);
             res.add(temp);
         }
         
