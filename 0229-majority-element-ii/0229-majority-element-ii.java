@@ -1,20 +1,25 @@
-class Solution 
-{
-    public List<Integer> majorityElement(int[] nums) 
-    {
-        List<Integer> result = new ArrayList<>();
+class Solution {
+    public List<Integer> majorityElement(int[] nums) {
+        List<Integer> res = new ArrayList<>();
+        int n = nums.length;
+        n= n/3;
+
         HashMap<Integer,Integer> map = new HashMap<>();
-        for(int num : nums)
+        for(int i = 0;i<nums.length;i++)
         {
-            map.put(num, map.getOrDefault(num,0)+1);
+            map.put(nums[i], map.getOrDefault(nums[i],0)+1);
         }
-        int n = nums.length/3;
-        for(int num: map.keySet())
+
+        for(Map.Entry<Integer,Integer> k : map.entrySet())
         {
-            if(map.get(num)>n)
-            result.add(num);
+            int key = k.getKey();
+            int value = k.getValue();
+
+            if(value>n)
+            res.add(key);
+
         }
-        return result;
+        return res;
 
         
     }
