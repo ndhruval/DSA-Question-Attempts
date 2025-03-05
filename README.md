@@ -131,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2032-largest-odd-number-in-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2050-count-good-numbers) |
+| [2649-count-total-number-of-colored-cells](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2649-count-total-number-of-colored-cells) |
 | [3462-vowels-game-in-a-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3462-vowels-game-in-a-string) |
 ## Array
 |  |
