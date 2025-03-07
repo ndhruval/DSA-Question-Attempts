@@ -1,34 +1,39 @@
-import java.util.*;
-
 class Solution {
+
     public int[] closestPrimes(int left, int right) {
-        int[] res = {-1, -1};  
-        int last = -1;
-        int minDiff = Integer.MAX_VALUE;
-        
-        for (int i = left; i <= right; i++) {
-            if (isPrime(i)) {
-                if (last != -1) {  
-                    int diff = i - last;
-                    if (diff < minDiff) {
-                        minDiff = diff;
-                        res[0] = last;
-                        res[1] = i;
+        int prevPrime = -1, closestA = -1, closestB = -1;
+        int minDifference = (int) 1e6;
+        // Find all prime numbers in the given range
+        for (int candidate = left; candidate <= right; candidate++) {
+            if (isPrime(candidate)) {
+                if (prevPrime != -1) {
+                    int difference = candidate - prevPrime;
+                    if (difference < minDifference) {
+                        minDifference = difference;
+                        closestA = prevPrime;
+                        closestB = candidate;
                     }
+                    // Twin prime optimization
+                    if (difference == 2 || difference == 1) return new int[] {
+                        prevPrime,
+                        candidate,
+                    };
                 }
-                last = i;  
+                prevPrime = candidate;
             }
         }
-        return res;
+
+        return (closestA == -1)
+            ? new int[] { -1, -1 }
+            : new int[] { closestA, closestB };
     }
 
-    private boolean isPrime(int n) {
-        if (n < 2) return false;
-        if (n == 2) return true; 
-        if (n % 2 == 0) return false;  
-        
-        for (int i = 3; i * i <= n; i += 2) { 
-            if (n % i == 0) return false;
+    private boolean isPrime(int number) {
+        if (number < 2) return false;
+        if (number == 2 || number == 3) return true;
+        if (number % 2 == 0) return false;
+        for (int divisor = 3; divisor * divisor <= number; divisor += 2) {
+            if (number % divisor == 0) return false;
         }
         return true;
     }
