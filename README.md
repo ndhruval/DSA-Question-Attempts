@@ -211,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3454-minimum-operations-to-make-array-equal-to-target](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3454-minimum-operations-to-make-array-equal-to-target) |
+| [3483-alternating-groups-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3483-alternating-groups-ii) |
 ## String
 |  |
 | ------- |
@@ -566,6 +567,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0658-find-k-closest-elements) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [3483-alternating-groups-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3483-alternating-groups-ii) |
 ## Monotonic Queue
 |  |
 | ------- |
