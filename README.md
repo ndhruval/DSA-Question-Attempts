@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0151-reverse-words-in-a-string) |
 | [0160-intersection-of-two-linked-lists](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0160-intersection-of-two-linked-lists) |
 | [0189-rotate-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0283-move-zeroes) |
 | [0455-assign-cookies](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0455-assign-cookies) |
 | [0658-find-k-closest-elements](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0658-find-k-closest-elements) |
 | [0908-middle-of-the-linked-list](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0908-middle-of-the-linked-list) |
@@ -168,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0229-majority-element-ii) |
 | [0239-sliding-window-maximum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0239-sliding-window-maximum) |
 | [0268-missing-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0268-missing-number) |
+| [0283-move-zeroes](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0283-move-zeroes) |
 | [0322-coin-change](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0322-coin-change) |
 | [0407-trapping-rain-water-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0407-trapping-rain-water-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0416-partition-equal-subset-sum) |
