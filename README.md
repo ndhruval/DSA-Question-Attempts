@@ -158,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0073-set-matrix-zeroes) |
 | [0078-subsets](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0078-subsets) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0088-merge-sorted-array) |
 | [0118-pascals-triangle](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0120-triangle) |
@@ -400,6 +401,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0035-search-insert-position) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0268-missing-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0268-missing-number) |
 | [0658-find-k-closest-elements](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0658-find-k-closest-elements) |
 | [0792-binary-search](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0792-binary-search) |
