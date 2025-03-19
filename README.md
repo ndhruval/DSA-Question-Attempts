@@ -201,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1435-xor-queries-of-a-subarray](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1435-xor-queries-of-a-subarray) |
 | [1524-string-matching-in-an-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1524-string-matching-in-an-array) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1694-make-sum-divisible-by-p](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1694-make-sum-divisible-by-p) |
@@ -415,6 +416,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0658-find-k-closest-elements) |
 | [0792-binary-search](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0907-koko-eating-bananas) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1753-path-with-minimum-effort](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1753-path-with-minimum-effort) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 ## Divide and Conquer
