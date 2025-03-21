@@ -178,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0283-move-zeroes) |
 | [0322-coin-change](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0322-coin-change) |
 | [0407-trapping-rain-water-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0407-trapping-rain-water-ii) |
+| [0410-split-array-largest-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0455-assign-cookies) |
@@ -290,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0213-house-robber-ii) |
 | [0322-coin-change](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0322-coin-change) |
+| [0410-split-array-largest-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0494-target-sum) |
@@ -338,6 +340,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0055-jump-game](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0055-jump-game) |
+| [0410-split-array-largest-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0455-assign-cookies) |
 | [0890-lemonade-change](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0890-lemonade-change) |
@@ -417,6 +420,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0162-find-peak-element) |
 | [0268-missing-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0268-missing-number) |
+| [0410-split-array-largest-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0540-single-element-in-a-sorted-array) |
 | [0658-find-k-closest-elements](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0658-find-k-closest-elements) |
 | [0792-binary-search](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0792-binary-search) |
@@ -592,6 +596,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0410-split-array-largest-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0560-subarray-sum-equals-k) |
 | [1435-xor-queries-of-a-subarray](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1435-xor-queries-of-a-subarray) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
