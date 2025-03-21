@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1694-make-sum-divisible-by-p](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1694-make-sum-divisible-by-p) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2107-find-unique-binary-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2107-find-unique-binary-string) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2308-divide-array-into-equal-pairs](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2308-divide-array-into-equal-pairs) |
 | [2434-design-a-number-container-system](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2434-design-a-number-container-system) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
@@ -213,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2107-find-unique-binary-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2107-find-unique-binary-string) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2292-counting-words-with-a-given-prefix) |
@@ -257,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2032-largest-odd-number-in-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2032-largest-odd-number-in-string) |
 | [2107-find-unique-binary-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2107-find-unique-binary-string) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2456-construct-smallest-number-from-di-string) |
@@ -561,6 +564,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0803-cheapest-flights-within-k-stops) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 ## Matrix
 |  |
 | ------- |
@@ -645,6 +649,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 ## Brainteaser
 |  |
 | ------- |
