@@ -17,44 +17,42 @@ class Solution {
         }
 
         // Step 3: Dijkstra’s Algorithm
-        long[] dist = new long[n]; // Shortest time to each node
+        long[] dist = new long[n]; 
         Arrays.fill(dist, INF);
         dist[0] = 0;
 
-        int[] ways = new int[n]; // Number of shortest paths
+        int[] ways = new int[n]; 
         ways[0] = 1;
 
         PriorityQueue<Pair> pq = new PriorityQueue<>();
-        pq.offer(new Pair(0, 0)); // Start from node 0 with time 0
+        pq.offer(new Pair(0, 0)); 
 
         while (!pq.isEmpty()) {
             Pair curr = pq.poll();
             int u = curr.node;
             long time = curr.time;
 
-            // If we’ve already found a shorter way, skip
             if (time > dist[u]) continue;
 
-            // Step 4: Explore neighbors in the matrix
             for (int v = 0; v < n; v++) {
-                if (graph[u][v] == INF) continue; // No direct edge
+                if (graph[u][v] == INF) continue; 
 
                 long newTime = time + graph[u][v];
 
-                if (newTime < dist[v]) { // Found a shorter path
+                if (newTime < dist[v]) { 
                     dist[v] = newTime;
-                    ways[v] = ways[u]; // Inherit path count
+                    ways[v] = ways[u]; 
                     pq.offer(new Pair(v, newTime));
-                } else if (newTime == dist[v]) { // Found another shortest path
+                } else if (newTime == dist[v]) { 
                     ways[v] = (ways[v] + ways[u]) % MOD;
                 }
             }
         }
 
-        return ways[n - 1]; // Number of ways to reach node (n-1)
+        return ways[n - 1]; 
     }
 
-    // Pair class for Priority Queue
+   
     static class Pair implements Comparable<Pair> {
         int node;
         long time;
