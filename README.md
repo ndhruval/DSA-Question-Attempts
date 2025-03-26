@@ -135,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2032-largest-odd-number-in-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2050-count-good-numbers) |
+| [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2610-closest-prime-numbers-in-range](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2649-count-total-number-of-colored-cells) |
 | [3227-find-missing-and-repeated-values](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3227-find-missing-and-repeated-values) |
@@ -217,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2107-find-unique-binary-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2107-find-unique-binary-string) |
+| [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -383,6 +385,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0658-find-k-closest-elements) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1256-rank-transform-of-an-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1256-rank-transform-of-an-array) |
+| [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2554-minimum-total-distance-traveled](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2554-minimum-total-distance-traveled) |
 ## Heap (Priority Queue)
 |  |
@@ -592,6 +595,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1753-path-with-minimum-effort) |
+| [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [3227-find-missing-and-repeated-values](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3227-find-missing-and-repeated-values) |
 ## Simulation
 |  |
