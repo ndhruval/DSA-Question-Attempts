@@ -1,29 +1,25 @@
 class Solution {
     public int numSubarraysWithSum(int[] nums, int goal) {
-        int l =0;
-        int ans =0;
-        int sum=0;
-        for(int r =0;r<nums.length;r++)
-        {
-            sum += nums[r];
-            while(l<r && sum>goal)
-            {
-                sum -= nums[l];
+        int cntN = findSub(nums,goal);
+        //no of subArray with sum<= goal-1
+        int cntM = findSub(nums,goal-1);
+        return cntN-cntM;
+        
+    }
+    public int findSub(int[] nums,int goal){
+        if(goal < 0){
+            return 0;
+        }
+        int l = 0,r = 0,sum = 0,cnt = 0;
+        while(r < nums.length){
+            sum+= nums[r];
+            while(sum > goal){
+                sum = sum- nums[l];
                 l++;
             }
-            if(sum == goal)
-            {
-                int temp = l;
-                while(temp<r && nums[temp]==0)
-                {
-                    temp++;
-                    ans++;
-                }
-                ans++;
-            }
-
+            cnt += r-l+1;
+            r++;
         }
-        return ans;
-        
+        return cnt;
     }
 }
