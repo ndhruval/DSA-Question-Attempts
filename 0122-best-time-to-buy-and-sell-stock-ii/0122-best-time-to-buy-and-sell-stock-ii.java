@@ -2,9 +2,7 @@ class Solution {
     public int maxProfit(int[] prices) {
         int n = prices.length;
         int sum=0;
-        int maxPro = Integer.MIN_VALUE;
-        for(int i=1;i<n;i++)
-        {
+        for(int i=1;i<n;i++){
             if(prices[i-1]<prices[i]){
                 sum += prices[i]- prices[i-1];
             }
