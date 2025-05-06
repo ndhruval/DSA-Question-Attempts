@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0160-intersection-of-two-linked-lists) |
 | [0189-rotate-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0287-find-the-duplicate-number) |
 | [0455-assign-cookies](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0455-assign-cookies) |
 | [0658-find-k-closest-elements](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0658-find-k-closest-elements) |
 | [0908-middle-of-the-linked-list](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0908-middle-of-the-linked-list) |
@@ -183,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0239-sliding-window-maximum) |
 | [0268-missing-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0287-find-the-duplicate-number) |
 | [0322-coin-change](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0322-coin-change) |
 | [0368-largest-divisible-subset](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0368-largest-divisible-subset) |
 | [0407-trapping-rain-water-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0407-trapping-rain-water-ii) |
@@ -349,6 +351,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0136-single-number) |
 | [0231-power-of-two](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0268-missing-number) |
+| [0287-find-the-duplicate-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0287-find-the-duplicate-number) |
 | [1435-xor-queries-of-a-subarray](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1435-xor-queries-of-a-subarray) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2308-divide-array-into-equal-pairs](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2308-divide-array-into-equal-pairs) |
@@ -444,6 +447,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0162-find-peak-element) |
 | [0268-missing-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0268-missing-number) |
+| [0287-find-the-duplicate-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0287-find-the-duplicate-number) |
 | [0410-split-array-largest-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0540-single-element-in-a-sorted-array) |
 | [0658-find-k-closest-elements](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0658-find-k-closest-elements) |
