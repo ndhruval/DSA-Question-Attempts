@@ -1,14 +1,21 @@
 class Solution {
     public int majorityElement(int[] nums) {
-        return majority(nums , nums.length-1, nums[nums.length-1]);
-    }
-    private int majority(int[] nums, int start, int major){
-        int counter = 0;
-        for(int i = start; i>=0; i--){
-            counter += nums[i]==major ? 1 : -1;
-            if(counter == -1) return majority(nums ,i, nums[i]);
+        int n= nums.length;
+        HashMap<Integer,Integer> map = new HashMap<>();
+        for(int i=0;i<n;i++)
+        {
+            map.put(nums[i], map.getOrDefault(nums[i],0)+1);
         }
-        return major;
+        n = (int)Math.floor(n/2);
+        int k =-1;
+        for(Map.Entry<Integer,Integer> mp : map.entrySet())
+        {
+            int v = mp.getValue();
+            if(v>n)
+            k= mp.getKey();
+        }
+        return k;
+
+        
     }
-    
 }
