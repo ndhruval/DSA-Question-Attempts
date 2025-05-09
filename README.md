@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0021-merge-two-sorted-lists) |
+| [0023-merge-k-sorted-lists](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0023-merge-k-sorted-lists) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0141-linked-list-cycle](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0142-linked-list-cycle-ii) |
@@ -439,6 +440,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0023-merge-k-sorted-lists) |
 | [0239-sliding-window-maximum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0239-sliding-window-maximum) |
 | [0407-trapping-rain-water-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0407-trapping-rain-water-ii) |
 | [0451-sort-characters-by-frequency](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0451-sort-characters-by-frequency) |
@@ -491,6 +493,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0004-median-of-two-sorted-arrays) |
+| [0023-merge-k-sorted-lists](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0169-majority-element) |
 ## Tree
@@ -744,4 +747,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1656-count-good-triplets](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1656-count-good-triplets) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1993-sum-of-all-subset-xor-totals) |
+## Merge Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
