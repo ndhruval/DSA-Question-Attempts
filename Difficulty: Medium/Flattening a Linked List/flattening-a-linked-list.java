@@ -1,6 +1,4 @@
 //{ Driver Code Starts
-// Initial Template for Java
-
 import java.util.*;
 
 class Node {
@@ -15,56 +13,8 @@ class Node {
     }
 }
 
-
-// } Driver Code Ends
-// User function Template for Java
-
-class Solution 
-{
-    // Function to flatten a linked list
-    Node flatten(Node root) 
-    {
-        if(root == null || root.next == null)
-        return root;
-        
-        Node mergehead = flatten(root.next);
-        return merge(root, mergehead);
-        
-        
-        // code here
-    }
-    public Node merge(Node list1, Node list2)
-    {
-        Node dummy = new Node(-1);
-        Node current = dummy;
-        while(list1 != null && list2 != null)
-        {
-            if(list1.data <= list2.data)
-            {
-                current.bottom = list1;
-                current = list1;
-                list1 = list1.bottom;
-            }
-            else
-            {
-                current.bottom = list2;
-                current = list2;
-                list2 = list2.bottom;
-            }
-            current.next = null;
-        }
-        if(list1 != null)
-        current.bottom = list1;
-        if(list2 != null)
-        current.bottom= list2;
-
-        return dummy.bottom;
-    }
-}
-
-//{ Driver Code Starts.
-
 public class GFG {
+    // Function to print the flattened linked list
     static void printList(Node node) {
         while (node != null) {
             System.out.print(node.data + " ");
@@ -73,50 +23,113 @@ public class GFG {
         System.out.println();
     }
 
+    // Create a linked list where `next` pointers connect the heads of multiple lists
+    static Node createLinkedList(List<Node> lists) {
+        Node head = null, temp = null;
+
+        for (Node list : lists) {
+            if (head == null) {
+                head = list;
+                temp = list;
+            } else {
+                temp.next = list;
+                temp = temp.next;
+            }
+        }
+        return head;
+    }
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int t = sc.nextInt();
-        sc.nextLine(); // Consume the remaining newline
+        Scanner scanner = new Scanner(System.in);
+
+        // Read number of test cases
+        int t = Integer.parseInt(scanner.nextLine());
 
         while (t-- > 0) {
-            String[] workArray = sc.nextLine().trim().split(" ");
-            int n = workArray.length;
+            // Read number of linked lists
+            int n = Integer.parseInt(scanner.nextLine());
+            List<Node> lists = new ArrayList<>();
 
-            Node head = null;
-            Node pre = null;
-
+            // Read each linked list
             for (int i = 0; i < n; i++) {
-                int m = Integer.parseInt(workArray[i]);
-                int data = sc.nextInt();
-                Node temp = new Node(data);
-                if (head == null) {
-                    head = temp;
-                    pre = temp;
-                } else {
-                    pre.next = temp;
-                    pre = temp;
+                String line = scanner.nextLine();
+                String[] values = line.split(" ");
+                Node head = null, temp = null;
+
+                for (String value : values) {
+                    Node newNode = new Node(Integer.parseInt(value));
+                    if (head == null) {
+                        head = newNode;
+                        temp = head;
+                    } else {
+                        temp.bottom = newNode; // Corrected from `.next` to `.bottom`
+                        temp = temp.bottom;
+                    }
                 }
 
-                Node preB = temp;
-                for (int j = 0; j < m - 1; j++) {
-                    int tempData = sc.nextInt();
-                    Node tempB = new Node(tempData);
-                    preB.bottom = tempB;
-                    preB = tempB;
-                }
+                lists.add(head);
             }
 
-            // Consume the remaining newline if there's any
-            if (sc.hasNextLine()) {
-                sc.nextLine();
-            }
+            // Create a linked list connecting all heads using `next` pointers
+            Node list = createLinkedList(lists);
 
-            Solution ob = new Solution();
-            Node root = ob.flatten(head);
-            printList(root);
+            // Flatten the linked list using the solution
+            Solution sol = new Solution();
+            Node flattenedList = sol.flatten(list);
+
+            // Print the flattened list
+            printList(flattenedList);
+            System.out.println("~");
         }
-        sc.close();
+
+        scanner.close();
     }
 }
 
 // } Driver Code Ends
+
+
+// User function Template for Java
+
+class Solution {
+    // Function to flatten a linked list
+    Node flatten(Node root) {
+        
+        if (root == null || root.next == null)
+            return root;
+        
+        Node temp = root.next;
+        root.next = null;
+        
+        Node ans = root;
+        
+        while (temp != null) {
+            Node next = temp.next;
+            temp.next = null;
+            ans = merge(ans, temp);
+            temp = next;
+        }
+        return ans;
+    }
+    
+    Node merge(Node head1, Node head2) {
+        Node ans2 = new Node(0);
+        Node ans1 = ans2;
+        
+        while (head1 != null && head2 != null) {
+            if (head1.data < head2.data) {
+                ans2.bottom = head1;
+                head1 = head1.bottom;
+            } else {
+                ans2.bottom = head2;
+                head2 = head2.bottom;
+            }
+            ans2 = ans2.bottom;
+        }
+        
+        if (head1 != null) ans2.bottom = head1;
+        if (head2 != null) ans2.bottom = head2;
+        
+        return ans1.bottom;
+    }
+}
