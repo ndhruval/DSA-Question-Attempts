@@ -9,49 +9,28 @@
  *     }
  * }
  */
-public class Solution 
-{
-    public ListNode detectCycle(ListNode head) 
-    {
+public class Solution {
+    public ListNode detectCycle(ListNode head) {
         if(head == null)
-            return null;
-
-        ListNode slow = head;
-        ListNode intersect = intersection(head);
-        if(intersect == null)
-        return null;
-        
-        while(slow != intersect)
         {
-        slow = slow.next;
-        intersect= intersect.next;
+            return null;
         }
-        return slow;
-
-
-        
-        
-    }
-    public ListNode intersection(ListNode head)
-    {
-        if(head == null)
-            return null;
-        ListNode slow = head;
         ListNode fast = head;
-        while(slow != null && fast != null)
+        ListNode slow = head;
+        while(fast != null && fast.next != null)
         {
-            fast = fast.next;
-            if(fast != null)
+            fast = fast.next.next;
+            slow = slow.next;
+            if(slow == fast) break;
+        }
+
+        if(fast == null || fast.next == null) return null;
+
+        fast = head;
+        while(fast!=slow){
             fast = fast.next;
             slow = slow.next;
-            if(slow == fast)
-            {
-                return slow;
-            }
-            
-            
-
         }
-        return null;
+        return slow;
     }
 }
