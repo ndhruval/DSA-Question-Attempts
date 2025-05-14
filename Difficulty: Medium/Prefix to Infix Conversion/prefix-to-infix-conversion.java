@@ -16,7 +16,9 @@ class GFG {
             Solution obj = new Solution();
             String ans = obj.preToInfix(s);
             System.out.println(ans);
-        }
+        
+System.out.println("~");
+}
     }
 }
 
@@ -26,29 +28,27 @@ class GFG {
 // User function Template for Java
 
 class Solution {
-    static String preToInfix(String pre_exp)
-    {
-        int i = pre_exp.length() -1;
-        Stack<String> st = new Stack<>();
-
-        while(i>=0)
+    static String preToInfix(String pre_exp) {
+        
+        Stack<StringBuilder> st = new Stack<>();
+        for(int i =pre_exp.length()-1;i>=0;i--)
         {
-            char c = pre_exp.charAt(i);
-            if(Character.isLetterOrDigit(c))
+            char ch = pre_exp.charAt(i);
+            if(Character.isLetterOrDigit(ch))
             {
-                String ans = String.valueOf(c);
-                st.push(ans);
+                st.push(new StringBuilder().append(ch));
             }
             else
             {
-                String t1 = st.pop();
-                String t2 = st.pop();
-                String temp = '(' + t1 + c + t2 + ')';
-                st.push(temp);
-            }
-            i--;
+                StringBuilder s1 = st.pop();
+                StringBuilder s2 = st.pop();
+                StringBuilder sb = new StringBuilder();
+                sb.append('(').append(s1).append(ch).append(s2).append(')');
+                st.push(sb);
+            } 
         }
-        return st.pop();
+        return st.pop().toString();
         // code here
+        
     }
 }
