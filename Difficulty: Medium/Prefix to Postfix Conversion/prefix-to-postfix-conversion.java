@@ -16,7 +16,9 @@ class GFG {
             Solution obj = new Solution();
             String ans = obj.preToPost(s);
             System.out.println(ans);
-        }
+        
+System.out.println("~");
+}
     }
 }
 
@@ -25,29 +27,30 @@ class GFG {
 
 // User function Template for Java
 
-class Solution 
-{
-    static String preToPost(String pre_exp)
-    {
-        int i =pre_exp.length() -1;
-        Stack<String> st = new Stack<>();
-        while(i>=0 )
+class Solution {
+    static String preToPost(String pre_exp) {
+        
+        Stack<StringBuilder> st = new Stack<>();
+        
+        for(int i = pre_exp.length()-1;i>=0;i--)
         {
-            char C = pre_exp.charAt(i);
-            if(Character.isLetterOrDigit(C))
+            char ch = pre_exp.charAt(i);
+            if(Character.isLetterOrDigit(ch))
             {
-                String ans = String.valueOf(C);
-                st.push(ans);
+                st.push(new StringBuilder().append(ch));
             }
             else
             {
-                String t1 = st.pop();
-                String t2 = st.pop();
-                String temp = t1 + t2 + C;
-                st.push(temp);
+                StringBuilder s1 = st.pop();
+                StringBuilder s2 = st.pop();
+                StringBuilder sb = new StringBuilder();
+                sb.append(s1).append(s2).append(ch);
+                
+                st.push(sb);
             }
-            i--;
         }
-        return st.pop();
+        return st.pop().toString();
+        // code here
+        
     }
 }
