@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0287-find-the-duplicate-number) |
 | [0455-assign-cookies](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0455-assign-cookies) |
 | [0658-find-k-closest-elements](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0658-find-k-closest-elements) |
+| [0874-backspace-string-compare](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0874-backspace-string-compare) |
 | [0908-middle-of-the-linked-list](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2265-partition-array-according-to-given-pivot) |
@@ -113,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0503-next-greater-element-ii) |
+| [0874-backspace-string-compare](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0874-backspace-string-compare) |
 | [0937-online-stock-span](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0937-online-stock-span) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1078-remove-outermost-parentheses](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1078-remove-outermost-parentheses) |
@@ -297,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0451-sort-characters-by-frequency) |
 | [0516-longest-palindromic-subsequence](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0516-longest-palindromic-subsequence) |
 | [0812-rotate-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0812-rotate-string) |
+| [0874-backspace-string-compare](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0874-backspace-string-compare) |
 | [0952-word-subsets](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0952-word-subsets) |
 | [1078-remove-outermost-parentheses](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1078-remove-outermost-parentheses) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1093-recover-a-tree-from-preorder-traversal) |
@@ -664,6 +667,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0054-spiral-matrix) |
 | [0289-game-of-life](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0289-game-of-life) |
+| [0874-backspace-string-compare](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0874-backspace-string-compare) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2551-apply-operations-to-an-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2551-apply-operations-to-an-array) |
