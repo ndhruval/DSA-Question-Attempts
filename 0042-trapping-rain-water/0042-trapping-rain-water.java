@@ -1,33 +1,34 @@
-class Solution 
-{
-    public int trap(int[] a) 
-    {
-        int l =0, r = a.length -1;
-        int m_l =0, m_r =0;
-        int res =0;
-        while(l<= r)
+class Solution {
+    public int trap(int[] height) {
+
+        int left =0;
+        int right = height.length -1;
+        int max_left =0, max_right =0;
+        int result =0;
+
+        while(left<= right)
         {
-            if(a[l]<= a[r])
+            if(height[left]<= height[right])
             {
-                if(a[l]>= m_l)
-                m_l = a[l];
+                if(height[left]>= max_left)
+                max_left = height[left];
                 else
-                res += m_l - a[l];
+                result += max_left - height[left];
 
-                l++;
-
+                left++;
             }
             else
             {
-                if(a[r]>=m_r)
-                m_r = a[r];
+                if(height[right]>= max_right)
+                max_right = height[right];
                 else
-                res += m_r -a[r];
+                result += max_right - height[right];
 
-                r--;
+                right--;
             }
+
         }
-        return res;
+        return result;
         
     }
 }
