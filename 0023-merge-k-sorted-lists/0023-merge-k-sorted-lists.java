@@ -1,32 +1,46 @@
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
-        ListNode ans = new ListNode(0);
-        ListNode x = ans;
-        for (int i = 0; i < lists.length; i++) {
-            ans.next = merge2Lists(lists[i], ans.next);
-        }
-        return x.next;
-    }
+        
 
-    public static ListNode merge2Lists(ListNode list1, ListNode list2) {
+        if(lists == null || lists.length == 0) return null;
+
+        PriorityQueue<ListNode> pq = new PriorityQueue<>((a,b)->Integer.compare(a.val,b.val));
+        for(ListNode node :lists)
+        {
+            if(node != null)
+            pq.offer(node);
+        }
+
         ListNode dummy = new ListNode(0);
         ListNode temp = dummy;
 
-        while (list1 != null && list2 != null) {
-            if (list1.val < list2.val) {
-                temp.next = list1;
-                list1 = list1.next;
-            } else {
-                temp.next = list2;
-                list2 = list2.next;
-            }
+        while(!pq.isEmpty())
+        {
+            ListNode smallest = pq.poll();
+            temp.next = smallest;
             temp = temp.next;
+
+
+            smallest = smallest.next;
+            if(smallest != null)
+            pq.offer(smallest);
         }
-
-        // Attach remaining nodes
-        if (list1 != null) temp.next = list1;
-        if (list2 != null) temp.next = list2;
-
         return dummy.next;
+
+
+
+
+
+        
     }
 }
