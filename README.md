@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0424-longest-repeating-character-replacement) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0451-sort-characters-by-frequency](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0451-sort-characters-by-frequency) |
@@ -236,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0287-find-the-duplicate-number) |
 | [0289-game-of-life](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0289-game-of-life) |
 | [0322-coin-change](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0322-coin-change) |
+| [0347-top-k-frequent-elements](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0368-largest-divisible-subset) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0407-trapping-rain-water-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0407-trapping-rain-water-ii) |
@@ -473,6 +475,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0268-missing-number) |
 | [0295-find-median-from-data-stream](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0295-find-median-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0368-largest-divisible-subset) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0435-non-overlapping-intervals](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0435-non-overlapping-intervals) |
@@ -490,6 +493,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0239-sliding-window-maximum) |
 | [0295-find-median-from-data-stream](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0295-find-median-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0407-trapping-rain-water-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0407-trapping-rain-water-ii) |
 | [0451-sort-characters-by-frequency](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0451-sort-characters-by-frequency) |
@@ -502,12 +506,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bucket Sort
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0451-sort-characters-by-frequency) |
 ## Counting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0229-majority-element-ii) |
+| [0347-top-k-frequent-elements](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0451-sort-characters-by-frequency) |
 | [1034-subarrays-with-k-different-integers](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1034-subarrays-with-k-different-integers) |
 | [1502-construct-k-palindrome-strings](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1502-construct-k-palindrome-strings) |
@@ -549,6 +555,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0347-top-k-frequent-elements) |
 ## Tree
 |  |
 | ------- |
@@ -822,4 +829,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
