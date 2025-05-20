@@ -11,12 +11,9 @@ class Solution
             if(g[left] <= s[right])
             {
                 left++;
-                right++;
+            
             }
-            else
-            {
-                right++;
-            }
+            right++;
         }
         return left;
         
