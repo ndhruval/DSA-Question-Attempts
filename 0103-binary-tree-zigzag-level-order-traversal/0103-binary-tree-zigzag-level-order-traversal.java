@@ -31,9 +31,9 @@ class Solution {
             {
                 TreeNode node = q.poll();
                 if(flag == true)
-                list.add(node.val);
+                list.addLast(node.val);
                 else
-                list.add(0,node.val);
+                list.addFirst(node.val);
 
                 if(node.left != null)
                 q.offer(node.left);
