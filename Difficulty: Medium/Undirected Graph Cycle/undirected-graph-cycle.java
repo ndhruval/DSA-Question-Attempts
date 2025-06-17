@@ -1,70 +1,32 @@
-//{ Driver Code Starts
-import java.io.*;
-import java.lang.*;
-import java.util.*;
-
-class GFG {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int T = Integer.parseInt(br.readLine().trim());
-        while (T-- > 0) {
-            String[] s = br.readLine().trim().split(" ");
-            int V = Integer.parseInt(s[0]);
-            int E = Integer.parseInt(s[1]);
-            ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
-            for (int i = 0; i < V; i++) adj.add(i, new ArrayList<Integer>());
-            for (int i = 0; i < E; i++) {
-                String[] S = br.readLine().trim().split(" ");
-                int u = Integer.parseInt(S[0]);
-                int v = Integer.parseInt(S[1]);
-                adj.get(u).add(v);
-                adj.get(v).add(u);
-            }
-            Solution obj = new Solution();
-            boolean ans = obj.isCycle(adj);
-            if (ans)
-                System.out.println("1");
-            else
-                System.out.println("0");
-
-            System.out.println("~");
-        }
-    }
-}
-// } Driver Code Ends
-
-
 class Solution {
-    // Function to detect cycle in an undirected graph.
-    public boolean isCycle(ArrayList<ArrayList<Integer>> adj) {
+    public boolean isCycle(int V, int[][] edges) {
+        ArrayList<ArrayList<Integer>> list = new ArrayList<>();
+        for(int i =0;i<V;i++){
+            list.add(new ArrayList<>());
+        }
+        for(int i=0;i<edges.length;i++){
+            list.get(edges[i][0]).add(edges[i][1]);
+            list.get(edges[i][1]).add(edges[i][0]);
+        }
         
-        int n = adj.size();
-        boolean visited[] = new boolean[n];
-        
-        for(int i=0;i<n;i++)
-        {
-            if(!visited[i])
-            {
-                if(dfs(adj,i,-1,visited)== true)
+        int vis[] = new int[V];
+        for(int i=0;i<V;i++){
+            if(vis[i] == 0){
+                if(dfs(list,i,-1,vis)== true)
                 return true;
             }
         }
         return false;
         // Code here
+        
     }
-    
-    public boolean dfs(ArrayList<ArrayList<Integer>> adj, int Node, int Parent, boolean[] visited)
-    {
-        visited[Node] = true;
-        for(Integer it: adj.get(Node))
-        {
-            if(visited[it]== false)
-            {
-                if(dfs(adj,it,Node,visited)== true)
-                return true;
+    public boolean dfs(ArrayList<ArrayList<Integer>> adj, int node, int parent, int[] vis){
+        vis[node] = 1;
+        for(Integer it: adj.get(node)){
+            if(vis[it] != 1){
+               if(dfs(adj,it, node,vis)== true) return true;
             }
-            else if(it != Parent)
-            return true;
+            else if(it != parent) return true;
         }
         return false;
     }
