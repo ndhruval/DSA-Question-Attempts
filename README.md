@@ -194,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2649-count-total-number-of-colored-cells](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2649-count-total-number-of-colored-cells) |
 | [3227-find-missing-and-repeated-values](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3227-find-missing-and-repeated-values) |
 | [3462-vowels-game-in-a-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3462-vowels-game-in-a-string) |
+| [3682-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
 ## Array
 |  |
 | ------- |
@@ -829,6 +830,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0062-unique-paths](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0062-unique-paths) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [3682-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
 ## Shortest Path
 |  |
 | ------- |
