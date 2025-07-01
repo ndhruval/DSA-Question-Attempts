@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0735-asteroid-collision) |
+| [0779-max-chunks-to-make-sorted-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0779-max-chunks-to-make-sorted-ii) |
 | [0874-backspace-string-compare](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0874-backspace-string-compare) |
 | [0937-online-stock-span](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0943-sum-of-subarray-minimums) |
@@ -167,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0402-remove-k-digits](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0503-next-greater-element-ii) |
+| [0779-max-chunks-to-make-sorted-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0779-max-chunks-to-make-sorted-ii) |
 | [0937-online-stock-span](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0943-sum-of-subarray-minimums) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -267,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0658-find-k-closest-elements) |
 | [0733-flood-fill](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0735-asteroid-collision) |
+| [0779-max-chunks-to-make-sorted-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0779-max-chunks-to-make-sorted-ii) |
 | [0792-binary-search](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0792-binary-search) |
 | [0890-lemonade-change](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0890-lemonade-change) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -462,6 +465,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0455-assign-cookies) |
+| [0779-max-chunks-to-make-sorted-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0779-max-chunks-to-make-sorted-ii) |
 | [0890-lemonade-change](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0890-lemonade-change) |
 | [1502-construct-k-palindrome-strings](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1502-construct-k-palindrome-strings) |
 | [1829-maximum-units-on-a-truck](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1829-maximum-units-on-a-truck) |
@@ -507,6 +511,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0455-assign-cookies) |
 | [0658-find-k-closest-elements](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0658-find-k-closest-elements) |
+| [0779-max-chunks-to-make-sorted-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0779-max-chunks-to-make-sorted-ii) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1256-rank-transform-of-an-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1256-rank-transform-of-an-array) |
 | [1829-maximum-units-on-a-truck](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1829-maximum-units-on-a-truck) |
