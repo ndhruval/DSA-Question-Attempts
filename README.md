@@ -383,6 +383,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3455-minimum-length-of-string-after-operations](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3462-vowels-game-in-a-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3462-vowels-game-in-a-string) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
+| [3617-find-the-original-typed-string-i](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/3617-find-the-original-typed-string-i) |
 ## Dynamic Programming
 |  |
 | ------- |
