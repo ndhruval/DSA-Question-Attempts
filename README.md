@@ -190,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0368-largest-divisible-subset) |
+| [0912-random-pick-with-weight](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0912-random-pick-with-weight) |
 | [1013-fibonacci-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1013-fibonacci-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1370-count-number-of-nice-subarrays) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
@@ -276,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0890-lemonade-change](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0890-lemonade-change) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0907-koko-eating-bananas](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0907-koko-eating-bananas) |
+| [0912-random-pick-with-weight](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0912-random-pick-with-weight) |
 | [0943-sum-of-subarray-minimums](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0943-sum-of-subarray-minimums) |
 | [0952-word-subsets](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0952-word-subsets) |
 | [0966-binary-subarrays-with-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0966-binary-subarrays-with-sum) |
@@ -579,6 +581,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0658-find-k-closest-elements) |
 | [0792-binary-search](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0907-koko-eating-bananas) |
+| [0912-random-pick-with-weight](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0912-random-pick-with-weight) |
 | [1046-max-consecutive-ones-iii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
@@ -798,6 +801,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0560-subarray-sum-equals-k) |
+| [0912-random-pick-with-weight](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0912-random-pick-with-weight) |
 | [0966-binary-subarrays-with-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0966-binary-subarrays-with-sum) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1046-max-consecutive-ones-iii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1046-max-consecutive-ones-iii) |
@@ -899,4 +903,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0347-top-k-frequent-elements) |
+## Randomized
+|  |
+| ------- |
+| [0912-random-pick-with-weight](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0912-random-pick-with-weight) |
 <!---LeetCode Topics End-->
