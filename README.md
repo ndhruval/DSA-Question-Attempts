@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1694-make-sum-divisible-by-p](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1694-make-sum-divisible-by-p) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [1995-finding-pairs-with-a-certain-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2107-find-unique-binary-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2107-find-unique-binary-string) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2308-divide-array-into-equal-pairs](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2308-divide-array-into-equal-pairs) |
@@ -316,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [1995-finding-pairs-with-a-certain-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2107-find-unique-binary-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2107-find-unique-binary-string) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
@@ -744,6 +746,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0937-online-stock-span](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0937-online-stock-span) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
+| [1995-finding-pairs-with-a-certain-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2434-design-a-number-container-system](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/2434-design-a-number-container-system) |
 ## Queue
 |  |
