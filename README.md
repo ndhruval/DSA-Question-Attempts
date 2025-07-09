@@ -227,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0035-search-insert-position) |
 | [0042-trapping-rain-water](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0042-trapping-rain-water) |
+| [0047-permutations-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0047-permutations-ii) |
 | [0048-rotate-image](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0054-spiral-matrix) |
@@ -454,6 +455,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0022-generate-parentheses) |
+| [0047-permutations-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0078-subsets) |
 | [0494-target-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0494-target-sum) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
@@ -519,6 +521,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0018-4sum) |
+| [0047-permutations-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0047-permutations-ii) |
 | [0075-sort-colors](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0148-sort-list) |
