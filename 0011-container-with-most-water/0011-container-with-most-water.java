@@ -18,11 +18,7 @@ class Solution {
                 left++;
                 right--;
             }
-
-            
-
         }
-        return max;
-        
+        return max;   
     }
 }
