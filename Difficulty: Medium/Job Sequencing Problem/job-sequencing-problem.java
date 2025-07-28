@@ -1,100 +1,50 @@
-//{ Driver Code Starts
-import java.io.*;
-import java.lang.*;
-import java.util.*;
 
-class Job {
-    int id, profit, deadline;
 
-    Job(int x, int y, int z) {
-        this.id = x;
-        this.deadline = y;
-        this.profit = z;
+
+class Data {
+    int dead, profit;
+    Data(int dead, int profit) {
+        this.dead = dead;
+        this.profit = profit;
     }
 }
 
-class GfG {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+class Solution {
+    public ArrayList<Integer> jobSequencing(int[] deadline, int[] profit) {
+        int n = deadline.length;
+        Data[] jobs = new Data[n];
 
-        // testcases
-        int t = Integer.parseInt(br.readLine().trim());
-        while (t-- > 0) {
-            String inputLine[] = br.readLine().trim().split(" ");
-
-            // size of array
-            int n = Integer.parseInt(inputLine[0]);
-            Job[] arr = new Job[n];
-            inputLine = br.readLine().trim().split(" ");
-
-            // adding id, deadline, profit
-            for (int i = 0, k = 0; i < n; i++) {
-                arr[i] = new Job(Integer.parseInt(inputLine[k++]),
-                                 Integer.parseInt(inputLine[k++]),
-                                 Integer.parseInt(inputLine[k++]));
-            }
-
-            Solution ob = new Solution();
-
-            // function call
-            ArrayList<Integer> res = ob.JobScheduling(arr, n);
-            System.out.println(res.get(0) + " " + res.get(1));
-
-            System.out.println("~");
+        for (int i = 0; i < n; i++) {
+            jobs[i] = new Data(deadline[i], profit[i]);
         }
-    }
-}
-// } Driver Code Ends
 
-
-/*
-class Job {
-    int id, profit, deadline;
-    Job(int x, int y, int z){
-        this.id = x;
-        this.deadline = y;
-        this.profit = z;
-    }
-}
-*/
-
-class Solution 
-{
-    // Function to find the maximum profit and the number of jobs done.
-    ArrayList<Integer> JobScheduling(Job jobs[], int n) 
-    {
-        // Sort jobs based on their profit in descending order
+        // Step 1: Sort jobs in decreasing order of profit
         Arrays.sort(jobs, (a, b) -> b.profit - a.profit);
 
-        int total = 0, count = 0, maxDeadLine = -1;
-
-        // Find the maximum deadline
-        for (int i = 0; i < n; i++) {
-            maxDeadLine = Math.max(maxDeadLine, jobs[i].deadline);
+        // Step 2: Find maximum deadline to create time slots
+        int maxDeadline = 0;
+        for (Data job : jobs) {
+            maxDeadline = Math.max(maxDeadline, job.dead);
         }
 
-        // Create an array to track occupied slots (1-based indexing)
-        int[] a = new int[maxDeadLine + 1];
-        Arrays.fill(a, -1); // -1 indicates a free slot
+        boolean[] slots = new boolean[maxDeadline + 1]; // 1-indexed
+        int count = 0, totalProfit = 0;
 
-        // Iterate through all jobs
-        for (int i = 0; i < n; i++) {
-            // Find a free slot for the current job, starting from its deadline
-            for (int j = jobs[i].deadline; j > 0; j--) {
-                if (a[j] == -1) { // Slot is free
-                    count += 1;      // Increment the job count
-                    a[j] = jobs[i].id; // Assign this job to the slot
-                    total += jobs[i].profit; // Add profit
+        // Step 3: Assign jobs greedily
+        for (Data job : jobs) {
+            for (int j = job.dead; j > 0; j--) {
+                if (!slots[j]) {
+                    slots[j] = true;
+                    count++;
+                    totalProfit += job.profit;
                     break;
                 }
             }
         }
 
-        // Create the result list
         ArrayList<Integer> result = new ArrayList<>();
-        result.add(count); // Number of jobs done
-        result.add(total); // Total profit
-
+        result.add(count);
+        result.add(totalProfit);
         return result;
     }
 }
