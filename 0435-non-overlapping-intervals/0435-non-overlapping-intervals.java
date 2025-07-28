@@ -15,6 +15,5 @@ class Solution
         }
         return intervals.length - count;
 
-        
     }
 }
