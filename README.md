@@ -364,6 +364,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0127-word-ladder) |
+| [0131-palindrome-partitioning](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0208-implement-trie-prefix-tree) |
@@ -427,6 +428,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0131-palindrome-partitioning](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0213-house-robber-ii) |
 | [0322-coin-change](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0322-coin-change) |
@@ -467,6 +469,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0131-palindrome-partitioning) |
 | [0494-target-sum](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0494-target-sum) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1993-sum-of-all-subset-xor-totals) |
