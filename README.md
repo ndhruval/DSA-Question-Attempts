@@ -971,4 +971,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/0493-reverse-pairs) |
+## Database
+|  |
+| ------- |
+| [1908-recyclable-and-low-fat-products](https://github.com/ndhruval/DSA-Question-Attempts/tree/master/1908-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
