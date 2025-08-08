@@ -1,37 +1,42 @@
-class Solution
-{
+class Solution {
     public String longestPalindrome(String s) {
-        int n = s.length();
-        if(s.length() <0 || s == null)
-        return s;
-        if(s.length() == 1) return s;
-        String dp[][] = new String[n][n];
-        return function(0,n-1,s,dp);  
-    }
-    public static String function(int i, int j,String s, String dp[][]){
-        //if(s.length() <0 || s == null)
-        //return s;
-        //if(s.length == 1) return s;
-        if(i>j) return "";
-        if(i == j) return s.substring(i, i+1);
-        if(dp[i][j] != null) return dp[i][j];
-        if(isPalindrome(s.substring(i,j+1)) == true)
-        return dp[i][j] = s.substring(i,j+1);
-
-        String palindrome1 = function(i+1,j,s,dp);
-        String palindrome2 = function(i,j-1,s,dp);
-
-        return dp[i][j] = palindrome1.length() > palindrome2.length()? palindrome1: palindrome2;
-
-    }
-    public static boolean isPalindrome(String s){
-        int n = s.length();
-        int left =0, right = n-1;
-        while(left <= right){
-            if(s.charAt(left) != s.charAt(right)) return false;
-            left++;
-            right--;
+        if (s == null || s.length() <= 1) {
+            return s;
         }
-        return true;
+
+        int n = s.length();
+        boolean[][] dp = new boolean[n][n];
+
+        int start = 0;
+        int maxLength = 1;
+
+        for (int i = 0; i < n; i++) {
+            dp[i][i] = true;
+        }
+
+        for (int i = 0; i < n - 1; i++) {
+            if (s.charAt(i) == s.charAt(i + 1)) {
+                dp[i][i + 1] = true;
+                start = i;
+                maxLength = 2;
+            }
+        }
+
+        for (int len = 3; len <= n; len++) {
+            for (int i = 0; i <= n - len; i++) {
+                int j = i + len - 1;
+
+                if (s.charAt(i) == s.charAt(j) && dp[i + 1][j - 1]) {
+                    dp[i][j] = true;
+
+                    if (len > maxLength) {
+                        start = i;
+                        maxLength = len;
+                    }
+                }
+            }
+        }
+        
+        return s.substring(start, start + maxLength);
     }
 }
